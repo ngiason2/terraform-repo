@@ -38,7 +38,7 @@ resource "google_service_account" "default" {
   display_name = "Service Account"
 }
 resource "google_compute_instance" "default" {
-  name         = "apache-server"
+  name         = "ngiatech-server"
   machine_type = var.machine-type
   zone         = var.zone
 
